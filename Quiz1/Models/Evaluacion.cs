@@ -2,12 +2,12 @@
 {
     public class Evaluacion
     {
-    public string Id { get; set; }
+    public int Id { get; set; }
     public string nombreEstudiante { get; set; }
     public string asignatura { get; set; }
     public double calificacion1 { get; set; }
     public double calificacion2 { get; set; }
-    public double calificador { get; set; }
+    public double calificacion { get; set; }
 
     }
 }
